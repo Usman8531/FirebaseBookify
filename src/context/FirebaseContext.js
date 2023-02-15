@@ -48,6 +48,7 @@ function FirebaseContextProvider({ children }) {
       } else {
         // User is signed out
         // ...
+        setAuthe(false);
         setUser(null);
       }
     });
